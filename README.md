@@ -53,17 +53,7 @@
     - [Leitura O(1)](#leitura-o1)
     - [K * n * log(K)](#k--n--logk)
     - [Aprendizados](#aprendizados)
-
- - [Compilação e Execução](#compilação-e-execução)
- - [Ambiente de Desenvolvimento:](#ambiente-de-desenvolvimento)
-
-
-
-- [Conclusão](#conclusão)
-    - [Grafos ou Matrizes?](#Grafos-ou-Matrizes?)
-    - [Comparações Entre as Formas de Caminhamento](#Comparações-Entre-as-Formas-de-Caminhamento)
-
-
+    
 - [Compilação e Execução](#Compilação-e-Execução)
 - [Ambiente de Desenvolvimento](#Ambiente-de-Desenvolvimento)
 
