@@ -53,7 +53,7 @@
     - [Leitura O(1)](#leitura-o1)
     - [K * n * log(K)](#k--n--logk)
     - [Aprendizados](#aprendizados)
-    
+
 - [Compilação e Execução](#Compilação-e-Execução)
 - [Ambiente de Desenvolvimento](#Ambiente-de-Desenvolvimento)
 
@@ -316,7 +316,7 @@ ____________________________________________
 
 
  #### 2. Construindo a Hash
- - Em seguida é criada uma hash utilizando a função **`fileReader()`**, recebendo como parâmetro o caminho até as entradas, e um vector de strings denominado **`words`**, a função usa o arquivo de entrada para criar a hash retornando um unordered_map e modificando a variável **`words`**. O unordered_map é armazenado na variável **`hashwords`** uma $Ha$ com chaves iguais à cada elemento em **`words`**, são estas strings com cada palavra no arquivo de entrada. Além disso tudo vale ressaltar que as chaves contidas em **`hashwords`** são palavras que não estão contidas no arquivo `Stopwrods.data`, para entender melhor como isso é feito, basta ler a documentação das funções **`isStopWord()`** e **`readStopWordsFile()`**. Caso queira entender como o processo de Hashing funciona em no unordered_map basta retornar à [#Algoritmos](#murmurhashunaligned2)
+ - Em seguida é criada uma hash utilizando a função **`fileReader()`**, recebendo como parâmetro o caminho até as entradas, e um vector de strings denominado **`words`**, a função usa o arquivo de entrada para criar a hash retornando um unordered_map e modificando a variável **`words`**. O unordered_map é armazenado na variável **`hashwords`** uma $Ha$ com chaves iguais à cada elemento em **`words`**, são estas strings com cada palavra no arquivo de entrada. Além disso tudo vale ressaltar que as chaves contidas em **`hashwords`** são palavras que não estão contidas no arquivo `Stopwrods.data`, para entender melhor como isso é feito, basta ler a documentação das funções **`isStopWord()`** e **`readStopWordsFile()`**. Caso queira entender como o processo de Hashing funciona em no unordered_map basta retornar à [Algoritmos](#murmurhashunaligned2)
 
 
   #### 3. Construindo o Heap
@@ -368,11 +368,73 @@ ____________________________________________
 <img src = "./img/Heaps/Heap_Aleatoriamente_Ord.png" height = "78%" width = "78%">
 
 <br>
-Fonte: Construção pelo autor7.
+Fonte: Construção pelo autor⁷.
 <br>
 ____________________________________________
-<br>Criada usando o Canva7, Disponível no <a href="">link</a>.
+<br>Criada usando o Canva⁷, Disponível no <a href="">link</a>.
 </div>
+
+#### 5. Saída
+- Depois de todo este processo, considerando estas [entradas](#entradas) o programa emite a seguinte saída:
+<div align="center">
+<strong>Figura 8</strong> - Heap Aleatoriamente Ordenado    
+<br>
+
+<img src = "./img/saída0.png" height = "78%" width = "78%">
+
+<br>
+Fonte: Captura de tela feita pelo autor⁸.
+<br>
+____________________________________________
+<br>Captura de tela do computador do autor⁸.<br>
+</div>
+<br>
+<br>
+
+<div align="center">
+<strong>Figura 9</strong> - Heap Aleatoriamente Ordenado    
+<br>
+
+<img src = "./img/saída1.png" height = "78%" width = "78%">
+
+<br>
+Fonte: Captura de tela feita pelo autor⁹.<br>
+<br>
+____________________________________________
+<br>Captura de tela do computador do autor⁹.
+</div>
+<br>
+<br>
+
+<div align="center">
+<strong>Figura 10</strong> - Heap Aleatoriamente Ordenado    
+<br>
+
+<img src = "./img/saída3.png" height = "78%" width = "78%">
+
+<br>
+Fonte: Captura de tela feita pelo autor¹⁰.
+<br>
+____________________________________________
+<br>Captura de tela do computador do autor¹⁰.
+</div>
+<br>
+<br>
+
+<div align="center">
+<strong>Figura 11</strong> - Heap Aleatoriamente Ordenado    
+<br>
+
+<img src = "./img/saída4.png" height = "78%" width = "78%">
+
+<br>
+Fonte: Captura de tela feita pelo autor¹¹.
+<br>
+____________________________________________
+<br>Captura de tela do computador do autor¹¹.
+</div>
+<br>
+<br>
 
 
 ## Conclusão, Reflexões e Aprendizados
