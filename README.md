@@ -182,8 +182,8 @@ Para ler o código basta acessar o link indexado no nome do algoritmo. O texto a
     1. $k = k \times M$
     2. $k = k  \oplus (k \gg R)$
     3. $k = k \times M$
-    4. $ h = h \times M$
-    5. $ h = h \oplus k$
+    4. $h = h \times M$
+    5. $h = h \oplus k$
 
 7. As iterações acabam quando todos os bytes em `data` forem percorridos, ou seja quando $n\leq 4$.
 
@@ -191,9 +191,9 @@ Para ler o código basta acessar o link indexado no nome do algoritmo. O texto a
     1. $h =  o \oplus h$.
     2. $h =  h \times M$.
 9. Por fim as seguintes operações são realizadas:
-    1. $ h = h \oplus (h \gg 13)$
-    2. $ h = h \times M$
-    3. $ h = h \oplus (h \gg 15)$
+    1. $h = h \oplus (h \gg 13)$
+    2. $h = h \times M$
+    3. $h = h \oplus (h \gg 15)$
 
 10. Só então o valor de $h$ é retornado como índice onde $k$ poderá ser armazenado.
 
