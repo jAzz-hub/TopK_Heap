@@ -6,10 +6,11 @@ int main()
 {
     string paths[2] = {"./dataset/DomCasmurro.data", "./dataset/Semana_Machado_Assis.data"};
     
-    cout<<"\n\n\n";
-    cout<<"Carregando TopK elementos de "<<paths[i]<<"..."<<"\n";
     for( unsigned int i = 0; i < 2 ;i++)
     {
+        
+        cout<<"\n\n\n";
+        cout<<"Carregando TopK elementos de "<<paths[i]<<"..."<<"\n";
         everythingForEachInput(paths[i]);
     }
 
